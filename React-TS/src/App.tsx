@@ -21,13 +21,22 @@ import './App.css'
 //   )
 // }
 
-import Game from './tic-tac-toe/index'
-function App() {
+// import Game from './tic-tac-toe/index'
+// function App() {
+//   return(
+//     <>
+//     <Game></Game>
+//     </>
+//   )
+// }
+
+//zod
+import UserRegistration from "./pages/UserRegistration"
+function App(){
   return(
     <>
-    <Game></Game>
+    <UserRegistration/>
     </>
   )
 }
-
 export default App
